@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Thực hành] Tạo form cơ bản</title>
+</head>
+<body>
+    <form>
+    <h1>Order form</h1>
+    What would you like to buy?
+    <br>
+    <select name="buy" id="">
+        <option value="car">Ô tô</option>
+        <option value="house">Nhà</option>
+        <option value="laptop">Laptop</option>
+    </select>
+    <br>
+    How many would you like to order?
+    <br>
+    <input type="radio" name="many" value="1" checked>$200 <br>
+    <input type="radio" name="many" value="2" >$250 <br>
+    <input type="radio" name="many" value="3" >$300 <br>
+    <p>Name <span style="color:red">*</span> </p>
+        <input type = "text" name="firstname" placeholder="FirstName" size="15"/>
+        <input type = "text" name="lastname" placeholder="LastName" size="15"/>
+    <p>Email</p>
+        <input type = "text" name="email" size="40"/>
+    <p>Phone Number</p>
+        <input type = "text" name="phone1" size="5"/> -
+        <input type = "text" name="phone2" size="5"/> -
+        <input type = "text" name="phone3" size="5"/>
+    <p></p>
+    <button type ="submit">Đăng ký </button>
+    </form>
+</body>
+</html>
